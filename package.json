@@ -1,0 +1,23 @@
+{
+  "name": "@keychord/chords-monitors",
+  "displayName": "Monitor Chords",
+  "description": "Focus monitors by number, order or direction.",
+  "categories": [
+    "Window Management"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeyChord/chords-monitors"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "bun test --isolate"
+  },
+  "devDependencies": {
+    "@keychord/chordtest": "workspace:*",
+    "@keychord/config": "catalog:",
+    "@keychord/tsconfig": "catalog:",
+    "@types/bun": "latest"
+  },
+  "packageManager": "pnpm@12.11.2"
+}
